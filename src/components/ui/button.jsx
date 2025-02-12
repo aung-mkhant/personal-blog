@@ -12,7 +12,7 @@ const buttonVariants = cva(
       variant: {
         default:
           "text-mtext bg-main border-2 border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none",
-        noShadow: "text-mtext bg-main border-2 border-border",
+        noShadow: "text-mtext bg-bw border-2 border-border",
         neutral:
           "bg-bw text-text border-2 border-border shadow-shadow hover:translate-x-boxShadowX hover:translate-y-boxShadowY hover:shadow-none",
         reverse:

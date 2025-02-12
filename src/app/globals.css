@@ -9,7 +9,8 @@
   --overlay: rgba(0, 0, 0, 0.8); /* background color overlay for alert dialogs, modals, etc. */
 
   --bg: #FBFBFB;
-  --highlight: #D0E8FF; 
+  --highlight: #BFFFE6; 
+  --card: #F5F5F5;
   --bw: #fff; /* white and secondary black e.g. utility class variant would be: bg-[#fff] dark:bg-[#212121] */
   --blank: #000; /* blank black and white */
   --border: #000;
@@ -31,7 +32,8 @@
 
 [data-theme="dark"] {
   --bg: #272933;
-  --highlight: #4F83CC;
+  --highlight: #249A8B;
+  --card: #1E1E1E;
   --bw: #212121;
   --blank: #fff;
   --border: #000;
@@ -77,6 +79,10 @@ h3{
 
   .blog-post img {
     @apply w-auto h-auto max-w-full my-8 mx-auto;
+  }
+
+  .blog-post a {
+    @apply text-[hsl(200,100%,50%)] hover:underline underline-offset-2;
   }
 }
 

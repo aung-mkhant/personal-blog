@@ -13,6 +13,7 @@ export default {
 				overlay: 'var(--overlay)',
 				bg: 'var(--bg)',
 				highlight: 'var(--highlight)',
+				card: 'var(--card)',
 				bw: 'var(--bw)',
 				blank: 'var(--blank)',
 				text: 'var(--text)',

@@ -1,5 +1,6 @@
 
 import Navigation from "@/components/Navigation";
+
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
