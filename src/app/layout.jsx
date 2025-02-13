@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
-
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Literata, } from 'next/font/google'
 import { Young_Serif } from 'next/font/google';
 import Footer from "@/components/Footer";
@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
             <main className="max-w-3xl mx-auto w-full">
               {children}
             </main>
-
+            <GoogleAnalytics gaId="G-46B83GC0TG" />
             <footer className="max-w-3xl w-full mx-auto pt-12 ">
               <Footer />
             </footer>
