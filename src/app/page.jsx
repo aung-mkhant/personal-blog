@@ -4,6 +4,7 @@ import Preview from '@/components/Preview';
 import Separator from '@/components/Separator';
 import Skills from '@/components/Skills';
 
+
 import { Button } from '@/components/ui/button'
 
 
@@ -23,7 +24,7 @@ export default async function HomePage() {
 
         <h1 className='text-4xl text-center  font-bold mb-12 font-young-serif'>Greetings, mortals...</h1>
         <Image
-          src="/assets/author/amk.jpeg"
+          src="/assets/author/amk.JPEG"
           className="mx-auto rounded-full mb-12"
           alt='author - Aung Min Khant'
           width="400"
@@ -32,7 +33,7 @@ export default async function HomePage() {
         />
         <p className='font-literata text-lg max-w-xl mx-auto'>
 
-          I'm <Highlighted>Aung Min Khant</Highlighted>. I love Technology and I'm always looking to venture into new  territories. Currently, my goal is to get on the road as a <Highlighted>Junior Web Developer</Highlighted> and work my way up. <Highlighted>Join me in my journey</Highlighted> as I go through various hardships to rise through the ranks!
+          I'm <Highlighted>Aung Min Khant</Highlighted>. I love Technology and I'm always looking to venture into new  territories. Currently, my goal is to get on the road as a <Highlighted>Junior React Developer</Highlighted> and work my way up. <Highlighted>Join me in my journey</Highlighted> as I go through various hardships to rise through the ranks!
         </p>
       </section>
 
@@ -40,7 +41,7 @@ export default async function HomePage() {
 
 
       <section className='mb-16 py-12'>
-        <h1 className='text-4xl text-center font-bold mb-12 font-young-serif'>What are my skills?</h1>
+        <h1 className='text-4xl text-center font-bold mb-12 font-young-serif'>My Soft Skills?</h1>
 
         <Skills />
       </section>
